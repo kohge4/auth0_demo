@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+requests = "*"
+aiofiles = "*"
+jinja2 = "*"
+starlette = "*"
+behave = "*"
+pyjwt = "*"
+python-jose = "*"
+python-dotenv = "*"
+
+[dev-packages]
+behave = "*"
+responses = "*"
+
+[requires]
+python_version = "3.7"
