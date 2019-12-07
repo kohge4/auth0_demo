@@ -1,11 +1,15 @@
 # python(fastAPI) で auth0 のRBAC を実現するコード
 
-- auth0 の JWT を持たせて エンドポイント /auth/demo にアクセスすると動作します。SPAのバックエンド用のコードなので単体ではうまく動作しないですが,python の環境がある状態で
+- auth0 の JWT を持たせて エンドポイント /auth/demo にアクセスすると動作します。SPAのバックエンド用のコードなので単体ではうまく動作しないですが,テストコードをbehave で書いていて, featiures/ ディレクトリに記述しています。
+
 ```
+git clone https://github.com/kohge4/auth0_demo.git
+cd auth0_demo 
+
 pipenv install -d 
 behave 
 ```
-の順にコマンドラインで操作するとテストの結果を確認できます
+の順にコマンドラインで操作するとテストの結果を確認できます。
 
 - インターン先で Auth0 の技術検証を担当していたときに書いたコードです。
 
