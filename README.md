@@ -1,8 +1,8 @@
-# python(fastAPI) で auth0 のRBAC を実現するコード
+# python(fastAPI) で Auth0 のRBAC を実現するコード
 
-- インターン先で Auth0 の技術検証を担当していたときに書いたコードです。
+- インターン先で Auth0 の技術検証を担当していたときに書いたコード
 
-下記はそのとき作成した発表資料と技術ブログです
+詳しい説明は下記の発表資料と技術ブログに載っています。
 
 発表資料: https://speakerdeck.com/kohge4/python-fastapi-deshu-karetaspaniren-zheng-ji-neng-wotukeru
 
