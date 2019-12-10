@@ -15,7 +15,8 @@ JX通信社技術ブログ: https://tech.jxpress.net/entry/2019/12/05/161941
 git clone https://github.com/kohge4/auth0_demo.git
 cd auth0_demo 
 
-pipenv install -d 
+pipenv shell
+pipenv install --dev 
 behave 
 ```
 の順にコマンドラインで操作するとテストの結果を確認できます。
